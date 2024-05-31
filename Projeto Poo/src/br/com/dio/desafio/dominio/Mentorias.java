@@ -2,7 +2,7 @@ package br.com.dio.desafio.dominio;
 import java.time.LocalDate;
 
 public class Mentorias extends Conteudo {
-    private LocalDate data;
+    private LocalDate data = LocalDate.now();
 
     public Mentorias (String titulo, String descricao){
         this.titulo = titulo;
